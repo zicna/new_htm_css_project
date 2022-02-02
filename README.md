@@ -34,4 +34,4 @@ ___
 - blogs cards (3-4)
 
 ## FOOTER
--connect form on click
+-only copyrights
