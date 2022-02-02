@@ -30,5 +30,8 @@ ___
 - project cards (3)
 ___
 
+## SECTION FOUR- BLOGS
+- blogs cards (3-4)
+
 ## FOOTER
 -connect form on click
