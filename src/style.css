@@ -44,7 +44,7 @@ header::after {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -10px;
+  bottom: 0;
   background-color: var(--main);
   border-radius: 5px;
 }
@@ -88,7 +88,6 @@ li > a:link {
   text-decoration: none;
   display: inline-block;
   margin: 0 auto;
-  /* padding: 4px, 8px; */
   font-size: 24px;
 }
 
@@ -99,7 +98,6 @@ li > a:link:last-child {
 a:link,
 a:visited {
   color: var(--gray);
-  border-top: 4px solid #fff;
 }
 a:hover {
   color: var(--main);
