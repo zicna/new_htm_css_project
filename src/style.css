@@ -12,6 +12,7 @@
   --gray-l: #495057;
   --gray: #343a40;
   --main: #087f5b;
+  --main-lg: #96f2d7;
 }
 
 * {
@@ -28,11 +29,24 @@ html {
 }
 
 header {
+  background-color: var(--gray-l-l);
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 64px;
-  border-bottom: 3px solid var(--main);
+  position: relative;
+}
+/* * break line after header */
+header::after {
+  content: '';
+  display: block;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  background-color: var(--main);
+  border-radius: 5px;
 }
 section {
   margin-bottom: 64px;
@@ -66,11 +80,9 @@ nav a::before {
   transition: transform ease-in-out 250ms;
 }
 
-nav a:hover::before{
-    transform: scale(1,1);
+nav a:hover::before {
+  transform: scale(1, 1);
 }
-
-
 
 li > a:link {
   text-decoration: none;
