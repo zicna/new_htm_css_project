@@ -11,16 +11,28 @@
 
 /* ! border-radius */
 
+/* ! colors */
+/* 
+#333
 
+#fdf2e9
+#f8d8bd
+#f3bf91
+
+ */
+
+/* ! color variables */
 :root {
   --gray-l-l: #e6e6e6;
   --gray-l: #495057;
   --gray: #343a40;
+  --main-or:#e67e22;
+  --main-or-dr:#cf711f;
   --main: #087f5b;
   --main-dr: #064935;
   --main-lg: #96f2d7;
 }
-
+/* ! whole document reset */
 * {
   margin: 0;
   padding: 0;
@@ -35,10 +47,11 @@ body {
 }
 html {
   scroll-behavior: smooth;
-  /* !this way we set 1rem = 10px */
+  /*! original font-size is 16px and 62.5% of that is 10px; this way we set 1rem = 10px */
   font-size: 62.5%
 }
-
+/* ********************************************************************************* */
+/* * STYLING FOR HEADER */
 header {
   background-color: var(--gray-l-l);
   display: flex;
@@ -56,11 +69,8 @@ header::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--main);
+  background-color: #f8d8bd;
   border-radius: 5px;
-}
-section {
-  margin-bottom: 64px;
 }
 
 nav ul {
@@ -82,14 +92,14 @@ nav a::before {
   display: block;
   height: 5px;
   border-radius: 5px;
-  background-color: var(--main);
+  background-color: var(--main-or);
   position: absolute;
   top: -10px;
   left: 0;
   right: 0;
   transform: scale(0, 1);
   transform-origin: left;
-  transition: transform ease-in-out 250ms;
+  transition: all ease-in-out 0.3s;
 }
 
 nav a:hover::before {
@@ -100,7 +110,7 @@ li > a:link {
   text-decoration: none;
   display: inline-block;
   margin: 0 auto;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 li > a:link:last-child {
@@ -110,12 +120,13 @@ li > a:link:last-child {
 a:link,
 a:visited {
   color: var(--gray);
+  transition: all 0.3s;
 }
 a:hover {
-  color: var(--main);
+  color: var(--main-or);
 }
 a:active {
-  color: var(--main);
+  color: var(--main-or);
 }
 
 .container {
@@ -123,52 +134,112 @@ a:active {
 }
 
 .logo {
-  margin: 16px 32px;
+  margin: 1.6rem 3.2rem;
   font-family: 'Tangerine', cursive;
   font-style: normal;
   font-weight: bolder;
-  font-size: 64px;
+  font-size: 6.44rem;
+}
+
+/* ********************************************************************************* */
+
+/* ********************************************************************************* */
+/* * HERO SECTION */
+section {
+  margin-bottom: 64px;
 }
 .hero-img{
   width: 100%;
   border-radius: 50%;
 }
 
-/* using grid */
+/*! using grid */
+.section-hero{
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
 .hero{
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 3fr auto;
-}
-
-
-/* ! button style */
-.btn {
-  text-transform: uppercase;
-  background-color: var(--main);
-  color: #fff;
-}
-
-.btn-lg{
-  margin: 24px;
-  padding: 12px 32px;
-  border-radius: 12px;
-  box-shadow: 10px 10px 10px 0.1px rgba(2, 54, 43, .5);
-  grid-column: 1 / 3;
-}
-
-.btn:hover{
-  background-color: var(--main-dr);
-}
-
-/* using flexbox */
-/* .section-hero {
-  display: flex;
-  flex-direction: column;
+  gap: 9.6rem;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  outline: 1px solid yellow;
-} */
+}
+
+.hero-text-box {
+  text-align: center;
+}
+
+.heading-primary{
+  font-size: 5.2rem;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2.2rem;
+}
+
+.heading-secunadry{
+  font-size: 2.5rem;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 2rem;
+}
+
+.heading-prefix{
+  display: inline-block;
+  font-size: 1.6rem;
+  color:#333;
+  margin-bottom: 1.5rem;
+
+}
+
+.hero-description{
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 6.4rem;
+}
+/* * button style */
+
+.btn:link, .btn:visited{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+/*! put transition on original "state" */
+  transition: all .3s ease-in-out;
+}
+
+.btn--full:link, .btn--full:visited{
+  background-color: var(--main-or);
+  color:#fff
+}
+.btn--full:hover, .btn--full:active{
+  background-color: var(--main-or-dr);
+  color:#fff
+}
+
+.btn--outline:link, .btn--outline:visited{
+  background-color: #fff;
+  color: #555
+}
+.btn--outline:hover, .btn--outline:active{
+  background-color: #fdf2e9;
+  color: #555;
+  /*! trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm{
+  margin-right: 1.6rem;
+}
+
+/* ********************************************************************************* */
+
+
+
+
