@@ -139,6 +139,18 @@ a:active {
   font-style: normal;
   font-weight: bolder;
   font-size: 6.44rem;
+  position: relative;
+}
+
+.logo::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: var(--main-or);
+  top: 40%;
+  left: 20%;
+  right: 0;
+  border-radius: 5px;
 }
 
 /* ********************************************************************************* */
@@ -210,6 +222,7 @@ section {
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+  font-weight: 600;
 /*! put transition on original "state" */
   transition: all .3s ease-in-out;
 }
@@ -238,8 +251,11 @@ section {
   margin-right: 1.6rem;
 }
 
-/* ********************************************************************************* */
+.dot {
+  color: var(--main-or);
+}
 
+/* ********************************************************************************* */
 
 
 
