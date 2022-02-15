@@ -53,7 +53,7 @@ html {
 /* ********************************************************************************* */
 /* * STYLING FOR HEADER */
 header {
-  background-color: var(--gray-l-l);
+  background-color: #fdf2e9;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,7 +150,7 @@ a:active {
   top: 40%;
   left: 20%;
   right: 0;
-  border-radius: 5px;
+  border-radius: 9px;
 }
 
 /* ********************************************************************************* */
@@ -193,10 +193,10 @@ section {
   margin-bottom: 2.2rem;
 }
 
-.heading-secunadry{
+.heading-secondary{
   font-size: 2.5rem;
   line-height: 1.05;
-  color: #333;
+  color: #474747;
   letter-spacing: -0.5px;
   margin-bottom: 2rem;
 }
@@ -205,6 +205,8 @@ section {
   display: inline-block;
   font-size: 1.6rem;
   color:#333;
+  color: var(--main-or);
+  font-weight: 600;
   margin-bottom: 1.5rem;
 
 }
@@ -256,6 +258,27 @@ section {
 }
 
 /* ********************************************************************************* */
+/* * ABOUT SECTION */
 
+.about {
+position: relative;
+}
+.about::after{
+  content: "";
+  display:block;
+  height: 2px;
+  border-radius: 9px;
+  background-color: #f3bf91;
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  left: 25%;
+}
+
+.about-description{
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 6.4rem;
+}
 
 
