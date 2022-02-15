@@ -70,7 +70,6 @@ html {
 /* ********************************************************************************* */
 /* * GENERAL REUSABLE COMPONENTS */
 
-
 .container{
   /* 1140px also convention*/
   max-width: 120rem;
@@ -86,12 +85,15 @@ html {
 .grid--2--col{
   grid-template-columns: repeat(2, 1fr);
 }
+
 .grid--3--col{
   grid-template-columns: repeat(3, 1fr);
 }
+
 .grid--4--col{
   grid-template-columns: repeat(4, 1fr);
 }
+
 /* ********************************************************************************* */
 
 
@@ -203,8 +205,6 @@ li > .main-nav-link:link:last-child {
   right: 0;
   border-radius: 9px;
 }
-
-/* ********************************************************************************* */
 
 /* ********************************************************************************* */
 /* * HERO SECTION */
@@ -332,54 +332,5 @@ position: relative;
   line-height: 1.2;
   margin-bottom: 6.4rem;
 }
+/* ********************************************************************************* */
 
-
-/* ! practise reusable grid */
-
-.section-how {
-  background-color: orange;
-  padding: 9.6rem;
-}
-
-.section-how div div {
-  padding: 100px;
-  font-size: 50px;
-  background-color: #333;
-}
-
-.container{
-  /* 1140px also convention*/
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-}
-
-.grid{
-  display: grid;
-  gap: 9.6rem;
-}
-
-.grid--2--col{
-  grid-template-columns: repeat(2, 1fr);
-}
-.grid--3--col{
-  grid-template-columns: repeat(3, 1fr);
-}
-.grid--4--col{
-  grid-template-columns: repeat(4, 1fr);
-}
-
-
-
-/* .section-how div:nth-child(1){
-  background-color: green;
-}
-.section-how div:nth-child(2){
-  background-color: red;
-}
-.section-how div:nth-child(3){
-  background-color: yellow;
-}
-.section-how div:nth-child(4){
-  background-color: purple;
-} */
