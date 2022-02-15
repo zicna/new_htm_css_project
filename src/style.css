@@ -57,7 +57,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-bottom: 64px; */
   position: relative;
 }
 /* * break line after header */
@@ -87,7 +86,7 @@ nav a {
   position: relative;
 }
 
-nav a::before {
+nav .main-nav-link::before {
   content: '';
   display: block;
   height: 5px;
@@ -102,30 +101,30 @@ nav a::before {
   transition: all ease-in-out 0.3s;
 }
 
-nav a:hover::before {
+.main-nav-link:hover::before {
   transform: scale(1, 1);
 }
 
-li > a:link {
+li > .main-nav-link:link {
   text-decoration: none;
   display: inline-block;
   margin: 0 auto;
   font-size: 2.4rem;
 }
 
-li > a:link:last-child {
+li > .main-nav-link:link:last-child {
   margin-left: 12px;
 }
 
-a:link,
-a:visited {
+.main-nav-link:link,
+.main-nav-link:visited {
   color: var(--gray);
   transition: all 0.3s;
 }
-a:hover {
+.main-nav-link:hover {
   color: var(--main-or);
 }
-a:active {
+.main-nav-link:active {
   color: var(--main-or);
 }
 
