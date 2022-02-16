@@ -257,11 +257,9 @@ section {
 .heading-prefix{
   display: inline-block;
   font-size: 1.6rem;
-  color:#333;
   color: var(--main-or);
   font-weight: 600;
   margin-bottom: 1.5rem;
-
 }
 
 .hero-description{
@@ -329,10 +327,17 @@ position: relative;
 } */
 
 .about-description{
-  font-size: 2rem;
-  line-height: 1.2;
+  font-size: 1.6rem;
+  line-height: 1.8;
   text-align: center;
-  /* margin-bottom: 6.4rem; */
+  font-weight: 500;
+}
+
+.about-prefix{
+  display: inline-block;
+  font-size: 1.6rem;
+  color: var(--main-or);
+  font-weight: 600;
 }
 /* ********************************************************************************* */
 
