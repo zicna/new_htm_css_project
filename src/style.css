@@ -237,6 +237,7 @@ section {
 }
 
 .heading-primary{
+  text-align: center;
   font-size: 5.2rem;
   letter-spacing: -0.5px;
   line-height: 1.05;
@@ -315,7 +316,7 @@ section {
 .about {
 position: relative;
 }
-.about::after{
+/* .about::after{
   content: "";
   display:block;
   height: 2px;
@@ -325,12 +326,13 @@ position: relative;
   top: 40%;
   right: 30%;
   left: 25%;
-}
+} */
 
 .about-description{
   font-size: 2rem;
   line-height: 1.2;
-  margin-bottom: 6.4rem;
+  text-align: center;
+  /* margin-bottom: 6.4rem; */
 }
 /* ********************************************************************************* */
 
