@@ -246,23 +246,27 @@ section {
 .hero-text-box {
   text-align: center;
 }
+.heading-primary, 
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+}
 
 .heading-primary{
   text-align: center;
   font-size: 5.2rem;
-  letter-spacing: -0.5px;
-  line-height: 1.05;
-  font-weight: 700;
-  color: #333;
   margin-bottom: 2.2rem;
 }
 
 .heading-secondary{
-  font-size: 2.5rem;
-  line-height: 1.05;
-  color: #474747;
-  letter-spacing: -0.5px;
+  font-size: 4.4rem;
   margin-bottom: 2rem;
+}
+.heading-tertiary{
+  font-size: 2.5rem;
 }
 
 .heading-prefix{
@@ -322,7 +326,7 @@ section {
 /* ********************************************************************************* */
 /* * ABOUT SECTION */
 
-.about {
+.section-about {
 position: relative;
 }
 /* .about::after{
@@ -341,13 +345,7 @@ position: relative;
   align-items: center;
   margin-bottom: 1.8rem;
 }
-.about-subheading{
-  display: inline-block;
-  font-size: 2.5rem;
-  line-height: 1.05;
-  color: #474747;
-  letter-spacing: -0.5px;
-}
+
 
 .about-description{
   font-size: 1.6rem;
