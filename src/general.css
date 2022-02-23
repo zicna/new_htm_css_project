@@ -110,3 +110,31 @@ html {
 }
 
 /* ********************************************************************************* */
+/* * HEADINGS */
+.heading-primary, 
+.heading-secondary,
+.heading-tertiary,
+.heading-quaternary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+}
+
+.heading-primary{
+  text-align: center;
+  font-size: 5.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.heading-secondary{
+  font-size: 4.4rem;
+  margin-bottom: 2rem;
+}
+.heading-tertiary{
+  font-size: 3rem;
+}
+.heading-quaternary{
+  font-size: 2.6rem;
+  color: #999;
+}
