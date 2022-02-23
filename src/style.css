@@ -1,5 +1,4 @@
 
-/* ! color variables */
 :root {
   --gray-l-l: #e6e6e6;
   --gray-l: #495057;
@@ -10,7 +9,6 @@
   --main-dr: #064935;
   --main-lg: #96f2d7;
 }
-
 /* ********************************************************************************* */
 /* * STYLING FOR HEADER */
 header {
@@ -169,7 +167,7 @@ section {
   margin-bottom: 2rem;
 }
 .heading-tertiary{
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .heading-prefix{
@@ -283,6 +281,26 @@ ion-icon {
 }
 /* ********************************************************************************* */
 /* *SECTION PROJECTS */
+.project-number{
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 1.2rem;
+}
+
+.project-heading {
+  margin-bottom: 1.2rem;
+}
+
+.project-description{
+  font-size: 1.8rem;
+  line-height:1.8;
+  margin-bottom: 4rem;
+}
+
+.project-img{
+  /* width: 30%; */
+}
 
 /* ********************************************************************************* */
 
