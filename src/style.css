@@ -298,8 +298,10 @@ ion-icon {
   margin-bottom: 4rem;
 }
 
-.project-img{
-  /* width: 30%; */
+.project-img-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ********************************************************************************* */
