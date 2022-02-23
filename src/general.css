@@ -40,69 +40,73 @@ default: 9px
  */
 
 :root {
-    --gray-l-l: #e6e6e6;
-    --gray-l: #495057;
-    --gray: #343a40;
-    --main-or:#e67e22;
-    --main-or-dr:#cf711f;
-    --main: #087f5b;
-    --main-dr: #064935;
-    --main-lg: #96f2d7;
-  }
-  /* ! whole document reset */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: var(--gray);
-    /* color: #555 */
-  }
-  html {
-    scroll-behavior: smooth;
-    /*! original font-size is 16px and 62.5% of that is 10px; this way we set 1rem = 10px */
-    font-size: 62.5%
-  }
-  /* ********************************************************************************* */
+  --gray-l-l: #e6e6e6;
+  --gray-l: #495057;
+  --gray: #343a40;
+  --main-or: #e67e22;
+  --main-or-dr: #cf711f;
+  --main: #087f5b;
+  --main-dr: #064935;
+  --main-lg: #96f2d7;
+}
+/* ! whole document reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--gray);
+  /* color: #555 */
+}
+html {
+  scroll-behavior: smooth;
+  /*! original font-size is 16px and 62.5% of that is 10px; this way we set 1rem = 10px */
+  font-size: 62.5%;
+}
+/* ********************************************************************************* */
 /* * GENERAL REUSABLE COMPONENTS */
 
-.container{
-    /* 1140px also convention*/
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 0 3.2rem;
-  }
-  
-  .half-container {
-    max-width: 60rem;
-    margin: 0 auto;
-    padding: 0 1.6rem;
-  }
-  
-  .grid{
-    display: grid;
-    gap: 9.6rem;
-  }
-  
-  .grid--2--col{
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .grid--3--col{
-    grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .grid--4--col{
-    grid-template-columns: repeat(4, 1fr);
-  }
-  
-  .bold-text {
-    font-weight: 700;
-  }
-  
-  /* ********************************************************************************* */
-  
+.container {
+  /* 1140px also convention*/
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.half-container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-center-v {
+  align-items: center;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+/* ********************************************************************************* */

@@ -229,7 +229,14 @@ section {
 
 .section-about {
 position: relative;
+background-color: #f8d8bd ;
+z-index: 10;
+/* clip-path: polygon(0 0, 100% 0, 75% 100%, 100% 0); */
+clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+padding: 6.4rem 0;
+
 }
+
 /* .about::after{
   content: "";
   display:block;
@@ -272,6 +279,12 @@ position: relative;
   line-height: 1.8;
 }
 
+.about-img{
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  width: 100%;
+  /* border-radius: 50%; */
+}
+
 /* ********************************************************************************* */
 ion-icon {
   display: inline-block;
@@ -302,6 +315,10 @@ ion-icon {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.project-img{
+border-radius: 9px;
 }
 
 /* ********************************************************************************* */
