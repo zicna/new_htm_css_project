@@ -340,22 +340,31 @@ ion-icon {
 
 /* ********************************************************************************* */
 /* * SECTION COntact ME */
-.socials{
-/* margin-bottom: 2rem; */
-}
-/* .social{
-  display: inline-block;
-  font-size: 5rem;
-} */
-
 .section-contact{
   margin-top: 3.2rem;
   padding-top: 9.6rem;
  background-color: #fae4d1;
  clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
-
-
 }
+.socials{
+  justify-content: center;
+  align-self: center;
+  /* display: flex;
+  text-align: center;
+  justify-content: center; */
+}
+.social{
+  margin-right: 3.2rem;
+}
+.contact-text{
+  justify-content: center;
+  align-self: center;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  text-align: center;
+  font-weight: 400;
+}
+
 
 /* ********************************************************************************* */
 /* * FOOTER */
@@ -375,4 +384,8 @@ ion-icon {
 }
 .footer-prefix{
   font-size: 2.2rem;
+}
+
+.connect-form{
+  background-color: #087f5b;
 }

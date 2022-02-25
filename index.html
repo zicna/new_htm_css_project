@@ -22,7 +22,10 @@
     <link rel="icon" href="./icons/finger-print.svg" />
 
     <!-- Devicon icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
 
     <script
       type="module"
@@ -46,9 +49,18 @@
               <a class="main-nav-link hover-efect" href="#projects">PROJECTS</a>
             </li>
             <li>
-              <a class="main-nav-link hover-efect" href="#contact-me">CONTACT</a>
+              <a class="main-nav-link hover-efect" href="#contact-me"
+                >CONTACT</a
+              >
             </li>
-            <li><a class="main-nav-link nav-cta" target="_blank" href="https://docs.google.com/document/d/1KbHbTqAieSidqud7ICvDKY5eyhd70SKlv5ngN5NiBIY/edit?usp=sharing">RESUME</a></li>
+            <li>
+              <a
+                class="main-nav-link nav-cta"
+                target="_blank"
+                href="https://docs.google.com/document/d/1KbHbTqAieSidqud7ICvDKY5eyhd70SKlv5ngN5NiBIY/edit?usp=sharing"
+                >RESUME</a
+              >
+            </li>
           </ul>
         </nav>
       </header>
@@ -67,7 +79,9 @@
               Currently, I'm focused on strengthening my core software skills as
               well as learning new ones.
             </p>
-            <a href="#contact-me" class="btn btn--full margin-right-sm">Contact me &darr;</a>
+            <a href="#contact-me" class="btn btn--full margin-right-sm"
+              >Contact me &darr;</a
+            >
             <a href="#about" class="btn btn--outline">About me &darr;</a>
           </div>
           <div class="hero-img-box">
@@ -246,7 +260,7 @@
               <div class="container">
                 <h4 class="heading-quaternary">Build with:</h4>
                 <i class="devicon devicon-rails-plain"></i>
-                <i class=" devicon devicon-html5-plain"></i>
+                <i class="devicon devicon-html5-plain"></i>
                 <i class="devicon devicon-css3-plain"></i>
                 <i class="devicon devicon-bootstrap-plain"></i>
                 <i class="devicon devicon-javascript-plain"></i>
@@ -294,7 +308,7 @@
               <div class="container">
                 <h4 class="heading-quaternary">Build with:</h4>
                 <i class="devicon devicon-rails-plain"></i>
-                <i class=" devicon devicon-html5-plain"></i>
+                <i class="devicon devicon-html5-plain"></i>
                 <i class="devicon devicon-css3-plain"></i>
                 <i class="devicon devicon-bootstrap-plain"></i>
               </div>
@@ -302,20 +316,72 @@
           </div>
         </div>
       </section>
-      <section class="section-contact"id="contact-me">
+      <section class="section-contact" id="contact-me">
         <div class="container">
-          <h2 class="heading-primary">Contact me</h2>
-          <div class="socials">
-            <div ><a href="https://github.com/zicna" target="_blank"><ion-icon class="social" name="logo-github"></ion-icon></a></div>
-            <div ><a href="https://www.linkedin.com/in/milan-m-zivkovic/" target="_blank"><ion-icon class="social" name="logo-linkedin"></ion-icon></a></div>
-            <div ><a href="https://dev.to/zicna" target="_blank"><ion-icon class="social" name="book"></ion-icon></a></div>
-        </div>
-
+          <h2 class="heading-primary">let's connect</h2>
+          <div class="grid grid--2--col">
+            <div class="socials">
+              <a href="https://github.com/zicna" target="_blank"
+                ><ion-icon class="social" name="logo-github"></ion-icon
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/milan-m-zivkovic/"
+                target="_blank"
+                ><ion-icon class="social" name="logo-linkedin"></ion-icon
+              ></a>
+              <a href="https://dev.to/zicna" target="_blank"
+                ><ion-icon class="social" name="book"></ion-icon
+              ></a>
+            </div>
+            <p class="contact-text">
+              Conect with my via <span class="heading-prefix">LinkedIn</span>,
+              checkout my <span class="heading-prefix">GitHub</span> page or
+              <span class="heading-prefix">blogs</span> that I wrote. If you
+              would like to send my direct
+              <span class="heading-prefix">email</span> please do so through
+              form bellow <span class="heading-prefix">&darr;</span>
+            </p>
+          </div>
+          <form class="connect-form">
+            <legend class="footer-text">email me:</legend>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="your name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="email"
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <div>
+              <button type="submit" class="btn btn-sm" id="btn-cancel-submit">
+                Reset
+              </button>
+              <button type="submit" class="btn btn-sm" id="btn-submit-form">
+                Send
+              </button>
+            </div>
+          </form>
         </div>
       </section>
       <footer class="footer">
         <div class="container">
-          <p class="footer-text"> <span class="footer-prefix">&copy;</span> build with love by <span class="footer-prefix">M</span>ilan <span class="footer-prefix">Z</span>ivkovic, 2022.</p>
+          <p class="footer-text">
+            <span class="footer-prefix">&copy;</span> build with love by
+            <span class="footer-prefix">M</span>ilan
+            <span class="footer-prefix">Z</span>ivkovic, 2022.
+          </p>
         </div>
       </footer>
       <script src="src/index.js"></script>
