@@ -34,6 +34,8 @@ default: 9px
 #333
 
 #fdf2e9
+#fae4d1
+#f9e0ca
 #f8d8bd
 #f3bf91
 
@@ -136,5 +138,5 @@ html {
 }
 .heading-quaternary{
   font-size: 2.6rem;
-  color: #999;
+  margin-bottom: 1rem;
 }

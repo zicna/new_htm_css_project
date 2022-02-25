@@ -207,7 +207,7 @@ section {
 
 .section-about {
 position: relative;
-background-color: #f8d8bd ;
+background-color: #fae4d1 ;
 z-index: 10;
 /* clip-path: polygon(0 0, 100% 0, 75% 100%, 100% 0); */
 clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
@@ -311,7 +311,7 @@ ion-icon {
 .project-img-box::before{
   width: 60%;
   padding-bottom: 60%;
-  background-color: #f8d8bd;
+  background-color: #fae4d1;
   z-index: -1;
 
 }
