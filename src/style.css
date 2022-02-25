@@ -120,7 +120,7 @@ li > .main-nav-link:link:last-child {
 /* ********************************************************************************* */
 /* * HERO SECTION */
 section {
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
 }
 .hero-img {
   width: 100%;
@@ -340,9 +340,32 @@ ion-icon {
 /* ********************************************************************************* */
 /* * SECTION COntact ME */
 .socials{
-
+/* margin-bottom: 2rem; */
 }
 /* .social{
   display: inline-block;
   font-size: 5rem;
 } */
+
+.section-contact{
+  margin-top: 6.4rem;
+  padding-top: 3.2rem;
+ background-color: #fae4d1;
+
+}
+
+/* ********************************************************************************* */
+/* * FOOTER */
+.footer{
+ font-size: 1.8rem;
+ background-color: #fae4d1;
+ height: 6rem;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.footer-text {
+  color: #999;
+  border-bottom: 2px solid #f3bf91;
+}
