@@ -348,9 +348,11 @@ ion-icon {
 } */
 
 .section-contact{
-  margin-top: 6.4rem;
-  padding-top: 3.2rem;
+  margin-top: 3.2rem;
+  padding-top: 9.6rem;
  background-color: #fae4d1;
+ clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
+
 
 }
 
@@ -364,6 +366,7 @@ ion-icon {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  
 }
 .footer-text {
   color: #999;
