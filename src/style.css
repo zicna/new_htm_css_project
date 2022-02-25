@@ -330,7 +330,8 @@ ion-icon {
   max-width: 280px;
 }
 
-.devicon, .social {
+.devicon,
+.social {
   display: inline-block;
   font-size: 5rem;
   color: var(--main-or);
@@ -340,23 +341,23 @@ ion-icon {
 
 /* ********************************************************************************* */
 /* * SECTION COntact ME */
-.section-contact{
+.section-contact {
   margin-top: 3.2rem;
   padding-top: 9.6rem;
- background-color: #fae4d1;
- clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
+  background-color: #fae4d1;
+  clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
 }
-.socials{
+.socials {
   justify-content: center;
   align-self: center;
   /* display: flex;
   text-align: center;
   justify-content: center; */
 }
-.social{
+.social {
   margin-right: 3.2rem;
 }
-.contact-text{
+.contact-text, summary {
   justify-content: center;
   align-self: center;
   font-size: 1.8rem;
@@ -365,27 +366,72 @@ ion-icon {
   font-weight: 400;
 }
 
+.connect-form {
+  width: 65%;
+  background-color: #f8d8bd;
+  border: 2px solid #f3bf91;
+  border-radius: 9px;
+  padding: 6.4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+input,
+textarea {
+  display: inline-block;
+  padding: 0.8rem;
+  margin: 0.8rem;
+  border-radius: 9px;
+  border: none;
+  min-width: 20rem;
+}
+
+input:focus, textarea:focus {
+  background-color: #a1c7bc;
+}
+
+input[type="submit"], input[type="reset"]{
+  background-color: var(--main-or);
+  color:#fff;
+  font-size: 1.8rem;
+  padding: 1.3rem 2.4rem;
+  border-radius: 9px;
+  font-weight: 500;
+}
+
+summary{
+  color: var(--main-or-dr)
+}
+/* ! options for  */
+/* details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+} */
 
 /* ********************************************************************************* */
 /* * FOOTER */
-.footer{
- font-size: 1.8rem;
- background-color: #fae4d1;
- height: 6rem;
- display: flex;
+.footer {
+  padding: 6.4rem 0;
+  font-size: 1.8rem;
+  background-color: #fae4d1;
+  height: 6rem;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  
 }
 .footer-text {
   color: #999;
-  border-bottom: 2px solid #f3bf91;
+  border-bottom: 2px solid #f8d8bd;
 }
-.footer-prefix{
+.footer-prefix {
   font-size: 2.2rem;
-}
-
-.connect-form{
-  background-color: #087f5b;
 }
