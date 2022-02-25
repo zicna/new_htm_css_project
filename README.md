@@ -28,10 +28,11 @@ ___
 ___
 ## SECTION THREE
 - project cards (3)
+- other projects less important
 ___
 
 ## SECTION FOUR- BLOGS
 - blogs cards (3-4)
 
 ## FOOTER
--only copyrights
+- only copyrights
