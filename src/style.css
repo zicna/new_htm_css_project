@@ -147,7 +147,8 @@ section {
   text-align: center;
 }
 
-.heading-prefix {
+.heading-prefix,
+.footer-prefix {
   display: inline-block;
   font-size: 1.6rem;
   color: var(--main-or);
@@ -371,4 +372,7 @@ ion-icon {
 .footer-text {
   color: #999;
   border-bottom: 2px solid #f3bf91;
+}
+.footer-prefix{
+  font-size: 2.2rem;
 }
