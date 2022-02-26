@@ -11,7 +11,7 @@
 /* ********************************************************************************* */
 /* * STYLING FOR HEADER */
 header {
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,7 +129,7 @@ section {
 
 /*! using grid */
 .section-hero {
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
   padding: 9.6rem 0;
 }
 
@@ -212,7 +212,7 @@ section {
 
 .section-about {
   position: relative;
-  background-color: #fae4d1;
+  background-color: #fdf2e9;
   z-index: 10;
   /* clip-path: polygon(0 0, 100% 0, 75% 100%, 100% 0); */
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
@@ -344,7 +344,7 @@ ion-icon {
 .section-contact {
   margin-top: 3.2rem;
   padding-top: 9.6rem;
-  background-color: #fae4d1;
+  background-color: #fdf2e9;
   clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
 }
 .socials {
