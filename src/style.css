@@ -207,6 +207,18 @@ section {
   color: var(--main-or);
 }
 
+@media (max-width: 1200px){
+  .section-hero{
+    background: red;
+  }
+}
+
+@media(max-width: 600px){
+  .section-hero{
+    background-color: #064935;
+  }
+}
+
 /* ********************************************************************************* */
 /* * ABOUT SECTION */
 
