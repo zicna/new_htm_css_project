@@ -137,7 +137,7 @@ html {
 .heading-quaternary{
   font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .no-b-margin{
