@@ -107,10 +107,6 @@ html {
   align-items: center;
 }
 
-.bold-text {
-  font-weight: 700;
-}
-
 /* ********************************************************************************* */
 /* * HEADINGS */
 .heading-primary, 
@@ -143,3 +139,8 @@ html {
   font-weight: 600;
   margin-bottom: 1rem;
 }
+
+.no-b-margin{
+  margin-bottom: 0;
+}
+
