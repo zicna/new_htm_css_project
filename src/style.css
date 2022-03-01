@@ -32,25 +32,12 @@ default: 9px
 
 /* 
 #333
-
 #fdf2e9
 #fae4d1
 #f9e0ca
 #f8d8bd
 #f3bf91
-
  */
-
-:root {
-  --gray-l-l: #e6e6e6;
-  --gray-l: #495057;
-  --gray: #343a40;
-  --main-or: #e67e22;
-  --main-or-dr: #cf711f;
-  --main: #087f5b;
-  --main-dr: #064935;
-  --main-lg: #96f2d7;
-}
 /* ********************************************************************************* */
 /* * STYLING FOR HEADER */
 header {
@@ -94,7 +81,7 @@ nav ul {
   display: block;
   height: 5px;
   border-radius: 5px;
-  background-color: var(--main-or);
+  background-color: #e67e22;
   position: absolute;
   top: -10px;
   left: 0;
@@ -123,7 +110,7 @@ li > .main-nav-link:link:last-child {
 }
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: var(--main-or);
+  color: #e67e22;
 }
 
 .main-nav-link.nav-cta:link,
@@ -131,12 +118,12 @@ li > .main-nav-link:link:last-child {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: var(--main-or);
+  background-color: #e67e22;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: var(--main-or-dr);
+  background-color: #cf711f;
 }
 
 .container {
@@ -156,7 +143,7 @@ li > .main-nav-link:link:last-child {
   content: '';
   position: absolute;
   height: 2px;
-  background-color: var(--main-or);
+  background-color: #e67e22;
   top: 40%;
   left: 20%;
   right: 0;
@@ -193,7 +180,7 @@ li > .main-nav-link:link:last-child {
 .footer-prefix {
   display: inline-block;
   font-size: 1.6rem;
-  color: var(--main-or);
+  color: #e67e22;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
@@ -219,12 +206,12 @@ li > .main-nav-link:link:last-child {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: var(--main-or);
+  background-color: #e67e22;
   color: #fff;
 }
 .btn--full:hover,
 .btn--full:active {
-  background-color: var(--main-or-dr);
+  background-color: #cf711f;
   color: #fff;
 }
 
@@ -246,7 +233,7 @@ li > .main-nav-link:link:last-child {
 }
 
 .dot {
-  color: var(--main-or);
+  color: #e67e22;
 }
 
 /* ********************************************************************************* */
@@ -277,7 +264,7 @@ li > .main-nav-link:link:last-child {
 .about-prefix {
   display: inline-block;
   font-size: 1.6rem;
-  color: var(--main-or);
+  color: #e67e22;
   font-weight: 600;
 }
 
@@ -308,7 +295,7 @@ li > .main-nav-link:link:last-child {
 /* ********************************************************************************* */
 ion-icon {
   display: inline-block;
-  color: var(--main-or);
+  color: #e67e22;
   font-size: 4.4rem;
   margin-right: 1.2rem;
 }
@@ -379,7 +366,7 @@ ion-icon {
 .devicon-small {
   display: inline-block;
   font-size: 5.2rem;
-  color: var(--main-or);
+  color: #e67e22;
   margin-right: 1.6rem;
   margin-bottom: 1.6rem;
 }
@@ -443,7 +430,7 @@ textarea:focus {
 
 input[type='submit'],
 input[type='reset'] {
-  background-color: var(--main-or);
+  background-color: #e67e22;
   color: #fff;
   font-size: 1.8rem;
   padding: 1.3rem 2.4rem;
@@ -452,7 +439,7 @@ input[type='reset'] {
 }
 
 summary {
-  color: var(--main-or-dr);
+  color: #cf711f;
 }
 
 /* ********************************************************************************* */
