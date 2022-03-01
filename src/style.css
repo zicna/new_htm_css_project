@@ -129,7 +129,6 @@ section {
 
 /*! using grid */
 .section-hero {
-  /* background-color: #fdf2e9; */
   padding: 9.6rem 0;
 }
 
@@ -212,24 +211,14 @@ section {
 
 .section-about {
   position: relative;
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
+  background-color: #f9e0ca;
   z-index: 10;
   /* clip-path: polygon(0 0, 100% 0, 75% 100%, 100% 0); */
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   padding: 6.4rem 0;
 }
 
-/* .about::after{
-  content: "";
-  display:block;
-  height: 2px;
-  border-radius: 9px;
-  background-color: #f3bf91;
-  position: absolute;
-  top: 40%;
-  right: 30%;
-  left: 25%;
-} */
 .flex-heading {
   display: flex;
   align-items: center;
@@ -344,15 +333,12 @@ ion-icon {
 .section-contact {
   margin-top: 3.2rem;
   padding-top: 9.6rem;
-  background-color: #fdf2e9;
+  background-color: #f9e0ca;
   clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
 }
 .socials {
   justify-content: center;
   align-self: center;
-  /* display: flex;
-  text-align: center;
-  justify-content: center; */
 }
 .social {
   margin-right: 3.2rem;
@@ -368,7 +354,8 @@ ion-icon {
 
 .connect-form {
   width: 65%;
-  background-color: #f8d8bd;
+  background-color: #f3bf91;
+
   border: 2px solid #f3bf91;
   border-radius: 9px;
   padding: 6.4rem 0;
@@ -406,22 +393,13 @@ input[type="submit"], input[type="reset"]{
 summary{
   color: var(--main-or-dr)
 }
-/* ! options for  */
-/* details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
-}
-
-@keyframes sweep {
-  0%    {opacity: 0; margin-left: -10px}
-  100%  {opacity: 1; margin-left: 0px}
-} */
 
 /* ********************************************************************************* */
 /* * FOOTER */
 .footer {
   padding: 6.4rem 0;
   font-size: 1.8rem;
-  background-color: #fae4d1;
+  background-color: #f9e0ca;
   height: 6rem;
   display: flex;
   justify-content: space-between;
