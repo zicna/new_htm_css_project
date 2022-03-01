@@ -72,6 +72,10 @@ nav ul {
   padding-right: 12px;
 }
 
+section {
+  padding: 6.4rem 0;
+}
+
 .hover-efect {
   position: relative;
 }
@@ -243,8 +247,7 @@ li > .main-nav-link:link:last-child {
   position: relative;
   background-color: #f9e0ca;
   z-index: 10;
-  -webkit--webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
-  padding: 6.4rem 0;
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
 }
 
 .flex-heading {
@@ -281,15 +284,7 @@ li > .main-nav-link:link:last-child {
 }
 
 .about-img {
-  -webkit-clip-path: polygon(
-    50% 0%,
-    100% 0,
-    87% 57%,
-    75% 100%,
-    0 100%,
-    18% 23%,
-    0 1%
-  );
+  clip-path: polygon(50% 0%, 100% 0, 87% 57%, 75% 100%, 0 100%, 18% 23%, 0 1%);
   width: 100%;
 }
 
@@ -389,7 +384,7 @@ ion-icon {
   margin-top: 3.2rem;
   padding-top: 9.6rem;
   background-color: #f9e0ca;
-  -webkit-clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0% 100%);
 }
 .socials {
   justify-content: center;
