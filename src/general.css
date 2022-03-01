@@ -40,17 +40,17 @@ default: 9px
 #f3bf91
 
  */
-
-:root {
-  --gray-l-l: #e6e6e6;
-  --gray-l: #495057;
-  --gray: #343a40;
-  --main-or: #e67e22;
-  --main-or-dr: #cf711f;
-  --main: #087f5b;
-  --main-dr: #064935;
-  --main-lg: #96f2d7;
-}
+ /* 
+ --gray-l-l: #e6e6e6;
+ --gray-l: #495057;
+ --gray: #343a40;
+ --main-or: #e67e22;
+ --main-or-dr: #cf711f;
+ --main: #087f5b;
+ --main-dr: #064935;
+ --main-lg: #96f2d7; 
+ */
+ 
 /* ! whole document reset */
 * {
   margin: 0;
@@ -61,8 +61,6 @@ body {
   font-family: 'Inter', sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: var(--gray);
-  /* color: #555 */
 }
 html {
   scroll-behavior: smooth;
@@ -78,12 +76,6 @@ html {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
-
-/* .half-container {
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 0 1.6rem;
-} */
 
 .grid {
   display: grid;
@@ -106,11 +98,6 @@ html {
 .grid-center-v {
   align-items: center;
 }
-
-/* .grid-gap-big{
-
-} */
-
 /* ********************************************************************************* */
 /* * HEADINGS */
 .heading-primary,
