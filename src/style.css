@@ -54,7 +54,6 @@ default: 9px
 /* ********************************************************************************* */
 /* * STYLING FOR HEADER */
 header {
-  /* background-color: #fdf2e9; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +75,8 @@ header::after {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;}
+  padding: 0;
+}
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -165,9 +165,6 @@ li > .main-nav-link:link:last-child {
 
 /* ********************************************************************************* */
 /* * HERO SECTION */
-section {
-  /* margin-bottom: 64px; */
-}
 .hero-img {
   width: 100%;
   border-radius: 50%;
@@ -206,8 +203,8 @@ section {
   line-height: 1.2;
   margin-bottom: 6.4rem;
 }
-/* * button style */
 
+/* * button style */
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -257,10 +254,8 @@ section {
 
 .section-about {
   position: relative;
-  /* background-color: #fdf2e9; */
   background-color: #f9e0ca;
   z-index: 10;
-  /* clip-path: polygon(0 0, 100% 0, 75% 100%, 100% 0); */
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
   padding: 6.4rem 0;
 }
@@ -301,7 +296,6 @@ section {
 .about-img {
   clip-path: polygon(50% 0%, 100% 0, 87% 57%, 75% 100%, 0 100%, 18% 23%, 0 1%);
   width: 100%;
-  /* border-radius: 50%; */
 }
 
 .flex-li {
@@ -357,7 +351,6 @@ ion-icon {
   display: block;
   top: 50%;
   left: 50%;
-  /* transform: translate(-50%, -65%) rotate(45deg); */
   transform: translate(-50%, -65%);
   clip-path: polygon(100% 65%, 0 65%, 50% 100%);
 }
@@ -423,7 +416,6 @@ summary {
 .connect-form {
   width: 65%;
   background-color: #f3bf91;
-
   border: 2px solid #f3bf91;
   border-radius: 9px;
   padding: 6.4rem 0;
