@@ -79,15 +79,15 @@ html {
   padding: 0 3.2rem;
 }
 
-.half-container {
+/* .half-container {
   max-width: 60rem;
   margin: 0 auto;
   padding: 0 1.6rem;
-}
+} */
 
 .grid {
   display: grid;
-  row-gap: 9.6rem;
+  row-gap: 6.4rem;
   column-gap: 6.4rem;
 }
 
