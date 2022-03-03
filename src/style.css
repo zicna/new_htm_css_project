@@ -383,8 +383,9 @@ ion-icon {
 /* ********************************************************************************* */
 /* Small Project part */
 .project-card {
+  max-width: 25rem;
   border-radius: 9px;
-  margin-top: 6.4rem;
+  margin-top: 3.2rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.2) ;
   border-radius: 11px;
   overflow: hidden;
@@ -392,8 +393,11 @@ ion-icon {
 }
 
 .project-card > img{
-  max-width: 30rem;
   margin-bottom: .8rem;
+}
+
+.project-card > img {
+  width: 100%;
 }
 
 .project-c-text{
